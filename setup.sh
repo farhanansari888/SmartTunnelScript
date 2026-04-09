@@ -133,7 +133,7 @@ rm -fr /usr/local/etc/xray
 # // Making Directory 
 mkdir -p /etc/nginx
 apt install nginx -y
-wget -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/farhanansari888/SmartTunnelScript/main/nginx.conf
+curl -L /etc/nginx/nginx.conf https://raw.githubusercontent.com/farhanansari888/SmartTunnelScript/main/nginx.conf
 systemctl enable nginx
 systemctl restart nginx
 mkdir -p /var/lib/scrz-prem/
