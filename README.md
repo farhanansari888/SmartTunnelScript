@@ -55,10 +55,6 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
   ```html
 apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/farhanansari888/SmartTunnelScript/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
   ```
-IPV6 enable
-```html
-apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/farhanansari888/SmartTunnelScript/main/setup2.sh && chmod +x setup2.sh && screen -S setup ./setup2.sh
-  ```
 <b>
 
 [ SERVICES ] <br>
