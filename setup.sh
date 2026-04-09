@@ -404,6 +404,9 @@ rm -fr /root/ssh-vpn.sh
 rm -fr /root/ins-xray.sh
 rm -fr /root/setup.sh
 rm -fr /root/domain
+curl -L /etc/nginx/nginx.conf https://raw.githubusercontent.com/farhanansari888/SmartTunnelScript/main/nginx.conf
+systemctl enable nginx
+systemctl restart nginx
 history -c
 
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} For Reboot") "
